@@ -60,9 +60,4 @@ def racer(length=10, color=colors["Purple"], delay_time=0.001):
 
 def lights_server_link():
     while True:
-
-        try:
-            racer()
-
-        except KeyboardInterrupt:
-            break
+        racer()
