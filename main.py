@@ -62,7 +62,7 @@ def lights_server_link():
     while True:
 
         try:
-
+            racer()
 
         except KeyboardInterrupt:
             break
